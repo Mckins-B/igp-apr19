@@ -1,3 +1,3 @@
-FROM Mckins-B/tomcat:base
+FROM markinsb/tomcat:base
 COPY abc.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
