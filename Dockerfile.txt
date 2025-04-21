@@ -1,0 +1,7 @@
+<<<<<<< HEAD:Dockerfile.txt
+FROM markinsb/tomcat:base
+COPY abc.war /usr/local/tomcat/webapps/
+CMD ["catalina.sh", "run"]
+=======
+
+>>>>>>> 1f392c8a14a40046f607546e82947ad292e38cef:dockerfile
